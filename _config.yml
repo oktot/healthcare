@@ -1,57 +1,24 @@
-title: Geeky corner
-description: Much-Worse Jekyll theme for academic page and blog
-sourcecode: "https://github.com/gchauras/much-worse-jekyll-theme"
-
-permalink: blog/:year/:month/:day/:title
-exclude: ["Makefile", "README.md"]
-
-url: "http://gchauras.github.io"     # the base hostname & protocol for your site
-baseurl: "/much-worse-jekyll-theme"                   # the subpath of your site, e.g. /blog
-
-author:
-    name:
-    facebook:
-    scholar:
+# Site settings
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
 
-# Settings for analytics helper
-# Set 'provider' to the analytics provider you want to use.
-# Set 'provider' to false to turn analytics off globally.
-#
-analytics:
-    provider:
-    statcounter:
-        sc_project  :
-        sc_security :
-        sc_invisible: 1
-        sc_text     : 2
-    google:
-        tracking_id: ''
-    getclicky:
-      site_id:
-    mixpanel:
-        token: ''
-    piwik:
-        baseURL: '' # Piwik installation address (without protocol)
-        idsite: ''  # the id of the site on Piwik
+# Other options
+permalink: blog/:year/:month/:title
+job.title: "Assistant Professor"
+excerpt_separator: "<!--more-->"
 
-# Settings for comments helper
-# Set 'provider' to the comment provider you want to use.
-# Set 'provider' to false to turn commenting off globally.
-#
-comments:
-    provider:
-    disqus:
-      short_name:
-    livefyre:
-      site_id:
-    intensedebate:
-      account:
-    facebook:
-      appid:
-      num_posts: 5
-      width: 580
-      colorscheme: light
+# SEO stuff
+# google_author: ""
+# google_site_verification: ""
+# bing_webmastertools_id: ""
